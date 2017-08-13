@@ -1,0 +1,22 @@
+{
+  "name": "snake-webpack",
+  "version": "1.0.0",
+  "description": "Snake game using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "keywords": [
+    "game",
+    "snake",
+    "webpack"
+  ],
+  "author": "aabida",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
